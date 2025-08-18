@@ -1,0 +1,436 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 800px;
+}
+
+/* TEXT ELEMENTS */
+
+.title h1 {
+    font-size: 2.6rem;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.9rem;
+    margin-top: 42px;
+    margin-bottom: 40px;
+}
+
+.contents h2 {
+    font-size: 1.15rem;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin: 42px 0 27px;
+}
+
+h4 {
+    font-size: 1.3rem;
+    margin: 42px 0 26px;
+}
+
+.details-categories ul, .publication-details ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.details-categories li, .publication-details li {
+    margin-bottom: 7px;
+    white-space: nowrap;
+}
+
+.contents ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.section ul {
+    padding-left: 30px;
+}
+
+li {
+    padding-bottom: 4px;
+}
+
+.contents ul li {
+    margin-bottom: 15px;
+}
+
+.section li {
+    line-height: 1.3rem;
+}
+
+.publication-details a {
+    color: white;
+}
+
+main a {
+    font-weight: 600;
+    color: #0360A6;
+    text-decoration: none;
+}
+
+.summary-text p {
+    margin: 0;
+}
+
+p {
+    line-height: 1.4rem;
+}
+
+/* PAGE ELEMENTS */
+
+.banner {
+    background-color: #323232;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.banner-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.banner-container * {
+    height: 34px;
+    width: auto;
+}
+
+/* TABLET BANNER */
+.tablet-banner {
+    display: none;
+    background-color: #323232;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.tablet-banner-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.tablet-banner-container *, .tablet-search-bar-container * {
+    height: 34px;
+    width: auto;
+}
+
+.tablet-search-bar-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* MOBILE BANNER */
+
+.mobile-banner-container * {
+    height: 34px;
+    width: auto;
+}
+
+.mobile-banner {
+    padding: 20px;
+    background-color: #323232;
+    display: none;
+}
+
+.logo-language-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar-container {
+    padding: 15px 0 0;
+    justify-content: center;
+}
+
+.search-bar-container img {
+    width: 100%;
+    height: auto;
+}
+
+.wg-logo {
+    margin-right: 30px;
+}
+
+.search-bar {
+    margin-left: 20px;
+}
+
+.content-type {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #666666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.title {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.breadcrumb {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px 20px;
+}
+
+.breadcrumb-link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #0360A6;
+}
+
+.fa-chevron-right {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #999;
+    margin: 0 8px;
+}
+
+.breadcrumb-current {
+    font-size: 0.9rem;
+    color: #666666;
+}
+
+.contents-divider hr {
+    border: 1px solid #0360A6;
+}
+
+.body-text {
+    max-width: 74%;
+}
+
+.summary-bar {
+    background-color: #0360A6;
+    padding: 20px 0;
+}
+
+.summary-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 20px;
+    max-width: 800px;
+}
+
+.summary-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    margin-right: 20px;
+}
+
+.summary-bar-divider {
+    display: none;
+    padding: 20px 0 20px;
+}
+
+.summary-bar-divider hr {
+    border: 1px solid #ececffe5;
+}
+
+.page-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.details-categories {
+    font-size: 0.8rem;
+    color: #C2E0FC;
+}
+
+.publication-details {
+    margin-left: 20px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.publication-details li:first-of-type {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.section-divider {
+    padding: 40px 0 0;
+}
+
+.section-divider hr {
+    border: 1px solid #d0d0d0;
+}
+
+.publication-section {
+    padding: 0 0 50px;
+}
+
+.publication-section h4 {
+    margin-bottom: 0;
+}
+
+.publication-section p {
+    margin-top: 12px;
+}
+
+.sub-footer {
+    background-color: #E5E5E5E5;
+    height: 60px;
+}
+
+footer {
+    background-color: #EEEEEE;
+    padding: 0;
+}
+
+.footer-logo-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.footer-logo-container img {
+    height: 34px;
+    width: auto;
+}
+
+/* TABLES */
+
+table {
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+th {
+    border-top: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    padding: 15px 15px 15px 0;
+}
+
+td {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px 15px 15px 0;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    padding-left: 15px;
+}
+
+/* RESPONSIVE MEDIA QUERIES */
+
+/* TABLET */
+
+@media screen and (max-width: 690px) {
+    .body-text {
+    max-width: 100%;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .tablet-banner {
+        display: block;
+    }
+
+    .summary-bar-container {
+        flex-direction: column;
+    }
+
+    .summary-bar-divider {
+        display: block;
+    }
+
+    .title h1 {
+    font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 450px) {
+    .body-text {
+    max-width: 100%;
+    }
+
+    .summary-bar-container {
+        flex-direction: column;
+    }
+
+    .summary-bar-divider {
+        display: block;
+    }
+
+    .title h1 {
+    font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .tablet-banner {
+        display: none;
+    }
+
+    .mobile-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
