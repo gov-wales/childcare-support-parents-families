@@ -10,7 +10,7 @@ body {
 main {
     margin: 0 auto;
     padding: 0 20px;
-    max-width: 800px;
+    max-width: 960px;
 }
 
 /* TEXT ELEMENTS */
@@ -100,7 +100,7 @@ p {
 }
 
 .banner-container {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -123,7 +123,7 @@ p {
 }
 
 .tablet-banner-container {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -138,7 +138,7 @@ p {
 }
 
 .tablet-search-bar-container {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 15px 20px 0 20px;
     display: flex;
@@ -183,7 +183,7 @@ p {
 
 .content-type {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 960px;
     padding: 0 20px;
     font-size: 0.8rem;
     font-weight: 600;
@@ -194,13 +194,13 @@ p {
 
 .title {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 960px;
     padding: 0 20px;
 }
 
 .breadcrumb {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 960px;
     padding: 30px 20px;
 }
 
@@ -241,7 +241,7 @@ p {
     justify-content: space-between;
     margin: 0 auto;
     padding: 10px 20px;
-    max-width: 800px;
+    max-width: 960px;
 }
 
 .summary-text {
@@ -281,6 +281,10 @@ p {
     text-underline-offset: 2px;
 }
 
+.section {
+    width: 100%;
+}
+
 .section-divider {
     padding: 40px 0 0;
 }
@@ -312,7 +316,7 @@ footer {
 }
 
 .footer-logo-container {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 40px 20px;
     display: flex;
@@ -328,6 +332,7 @@ footer {
 /* TABLES */
 
 table {
+    width: 100%;
     font-size: 0.95rem;
     text-align: left;
 }
@@ -381,11 +386,11 @@ th:nth-child(2), td:nth-child(2) {
     }
 
     h3 {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     h4 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -413,11 +418,11 @@ th:nth-child(2), td:nth-child(2) {
     }
 
     h3 {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     h4 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .banner {
